@@ -5,7 +5,8 @@ describe("String Calculator", () => {
             expect(add("")).toBe(0);
         })
         test("should return negative numbers not allowed when negative numbers passed", () => {
-            expect(add("-1,-2,-3")).toBe(`negative numbers not allowed -1,-2,-3`);
+            expect(() => add("-1,-2,-3")).toThrowError(new Error(`negative numbers not allowed -1,-2,-3`));
+
         })
     })
     describe("processing of valid inputs with comma as delimiter", () => {
@@ -15,7 +16,7 @@ describe("String Calculator", () => {
             //When: alling add function
             const result = add(input);
             //Then: it should return same number
-            expect(result).toBe(input);
+            expect(result).toBe(parseInt(input));
         })
         test("should return the sum of two comma-separated numbers", () => {
             //Given: two numbers separated by comma

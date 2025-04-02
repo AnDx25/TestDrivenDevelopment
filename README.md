@@ -20,8 +20,11 @@ Make sure you have the following installed:
 
 
 ## 📜 API Endpoints
-GET /api/example  # Returns example data
-POST /api/example  # Creates a new entry
+```bash
+# Returns example data
+POST /api/v1/string/calculate
+# Creates a new entry
+GET /coverage```
 
 
 ## 📥 Installation

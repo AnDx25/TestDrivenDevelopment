@@ -22,18 +22,12 @@ Make sure you have the following installed:
 
 - Node.js v22.14.0
 ## Installation
-# Clone the repository
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
-
-# Install dependencies
-npm install
-
-# Start the application
-npm run dev
-
-# To generate a coverage report
-npm test
+```bash
+git clone https://github.com/your-username/your-repo.git # Clone the repository
+cd your-repo 
+npm install # Install dependencies
+npm run dev # Start the application
+npm test # To generate a coverage report
 
 
 ## 🖼️ Screenshots

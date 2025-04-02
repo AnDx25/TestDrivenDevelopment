@@ -20,15 +20,15 @@ Make sure you have the following installed:
 
 
 ## 📜 API Endpoints
-```bash
+bash
 # Returns example data
 POST /api/v1/string/calculate
 # Creates a new entry
-GET /coverage```
+GET /coverage
 
 
 ## 📥 Installation
-```bash
+bash
 # Clone the repository
 git clone https://github.com/your-username/your-repo.git
 cd your-repo

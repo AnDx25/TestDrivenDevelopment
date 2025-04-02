@@ -1,6 +1,6 @@
 import express from 'express';
 import { StringController } from '../controllers/string.controller';
 const router = express.Router();
-router.post("/",StringController.addString);
+router.post("/calculate", StringController.addString);
 
 export default router;

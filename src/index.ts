@@ -9,7 +9,7 @@ app.use(express.json());
 app.get("/", (req: Request, res: Response) => {
     res.send("Hello Home");
 })
-app.use("/api/v1/", stringRoute);
+app.use("/api/v1/string", stringRoute);
 // Serve Jest HTML report
 app.use("/coverage", express.static(path.join(__dirname, "../coverage/lcov-report")));
 

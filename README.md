@@ -27,6 +27,7 @@ POST /api/v1/string/calculate
 GET /coverage
 
 
+
 ## 📥 Installation
 bash
 # Clone the repository
@@ -38,6 +39,3 @@ npm install
 npm run dev
 # To generate coverage report
 npm test
-
-
-

@@ -2,9 +2,21 @@ import { add } from "../../utils/StringUtil"
 describe("String Calculator", () => {
     describe("validation of inputs with comma separated", () => {
         test("should return 0 for an empty string", () => {
+            //Given: empty input
+            //When: calling add function
+            //Then: it should return 0
             expect(add("")).toBe(0);
         })
+        test("should return 0 for an null string", () => {
+            //Given: null input
+            //When: calling add function
+            //Then: it should return 0
+            expect(add("null")).toBe(0);
+        })
         test("should return negative numbers not allowed when negative numbers passed", () => {
+            //Given: negative input
+            //When: calling add function
+            //Then: it should throw error
             expect(() => add("-1,-2,-3")).toThrowError(new Error(`negative numbers not allowed -1,-2,-3`));
 
         })

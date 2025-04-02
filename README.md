@@ -16,6 +16,11 @@ This project is to demonstrate TDD framework using Jest.
 - ✅ Handles corner cases of data
 - ✅ Coverage report API is exposed
 
+## Screenshots
+![Screenshot 1](https://github.com/AnDx25/TestDrivenDevelopment/blob/main/assets/screenshots/CoverageScreenshot.png)
+![Screenshot 1](https://github.com/AnDx25/TestDrivenDevelopment/blob/main/assets/screenshots/Api%20Endpoint%20Screenshot.png)
+
+
 ## 🎯 Prerequisites
 
 Make sure you have the following installed:
@@ -34,6 +39,5 @@ npm test # To generate a coverage report
 
 ## 📜 API Endpoints
 
-```bash
 POST /api/v1/string/calculate  # Returns example data
 GET /coverage  # Creates a new entry

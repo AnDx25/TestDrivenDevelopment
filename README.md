@@ -16,11 +16,10 @@ This project is to demonstrate TDD framework using Jest
 Make sure you have the following installed:
 - Node.js v22.14.0
 
-##🖼️ Screenshots
+## 🖼️ Screenshots
 
 
 ## 📜 API Endpoints
-```bash
 GET /api/example  # Returns example data
 POST /api/example  # Creates a new entry
 
